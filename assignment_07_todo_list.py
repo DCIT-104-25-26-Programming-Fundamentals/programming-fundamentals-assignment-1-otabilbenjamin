@@ -115,9 +115,9 @@ def delete_task(tasks):
 
 tasks = []
 while True:
-    print("\n============================")
-    print("     TO-DO LIST MENU")
-    print("============================")
+    
+    print(" WELCOM TO BENJI TO-DO LIST MENU")
+    
     print("1. Add task")
     print("2. View tasks")
     print("3. Delete task")

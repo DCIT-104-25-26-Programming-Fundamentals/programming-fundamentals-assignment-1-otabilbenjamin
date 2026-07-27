@@ -88,9 +88,9 @@ def exponentiate(a, b):
     return a ** b   
 
 while True:
-    print("\n============================")
-    print("     SIMPLE CALCULATOR")
-    print("============================")
+    
+    print("   BENJI'S  SIMPLE CALCULATOR")
+    
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")

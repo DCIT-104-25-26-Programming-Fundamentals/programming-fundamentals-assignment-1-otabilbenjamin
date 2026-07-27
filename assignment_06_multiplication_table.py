@@ -64,7 +64,7 @@ def print_table(number):
 def print_tables(n):
     for num in range(1, n + 1):
      print_table(num)
-    print("---------------------------")
+    
 
 number =int(input("Enter a number: "))
 if number <= 0:
