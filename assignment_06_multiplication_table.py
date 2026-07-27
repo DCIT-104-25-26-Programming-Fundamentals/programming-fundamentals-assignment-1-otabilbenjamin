@@ -55,3 +55,25 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
+def print_table(number):
+    print("\nMultiplication Table for", number)
+    for i in range(1, 13):
+        product = number * i
+        print(number, "x", i, "=", product )
+
+def print_tables(n):
+    for num in range(1, n + 1):
+     print_table(num)
+    print("---------------------------")
+
+number =int(input("Enter a number: "))
+if number <= 0:
+    print("Error: Please enter a positive integer.")
+else:
+    print_table(number)
+
+n = int(input("\nEnter N: "))
+if n <= 0:
+    print("Error: number must be positive.")
+else:
+    print_tables(n)
